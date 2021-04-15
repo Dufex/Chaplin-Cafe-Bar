@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+
+}
+body{
+
+}
+header{
+    z-index: 1000;
+    background-color: #ec823a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header ul{
+    display: flex;
+    list-style: none;
+    
+}
+header ul li{
+  padding: 2em 0.7em;
+  
+
+}
+.navs i{
+    padding-left: .5em;
+}
+header ul li a{
+  padding: 1em 1em;
+  z-index: 10000000;
+    text-transform: uppercase; 
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.7s all;
+    
+}
+
+header ul li a:hover{
+  z-index: 10000000;
+  background-color: #7c3c21;
+  color: #FFF;
+}
+
+.secone{
+    margin-top: 4.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    z-index: -20;
+    height: 400px;
+
+    background-image: url(../images/Coffe.jpg);
+  
+    background-position: center;
+  
+}
+.secone::before{
+    content: '';
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ec744181;
+
+}
+.secone h2{
+    margin-bottom: 1em;
+    z-index: 1000;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3em;
+
+}
+.rg{
+    width: 40%;
+}
+.reg{
+    width: 40%;
+}
+.secone p{
+    font-weight: 400;
+    line-height: 1.5em;
+    color: rgb(243, 236, 236);
+    margin-bottom: 2em;
+    z-index: 1000;
+}
+.titles span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ca5116;
+}
+.secone a{
+    background-color: #7c3c21;
+    z-index: 1000;
+    cursor: pointer;
+    cursor: pointer;
+    padding: .7em 1.3em;
+    text-decoration: none;
+    color: white;
+
+}
+.secone a:hover{
+    color: #f9c49a;
+    transition: .3s all ease;
+}
+.tercera{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.tercera .rg{
+    margin-right: 30px;
+}
+.tercera h2{
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+.tercera p{
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 2.4em;
+}
+.tercera a{
+    background-color: #7c3c21;
+    text-decoration: none;
+    color: white;
+    margin-top: 1em;
+    padding: .7em 1.3em;
+
+}
+.cot{
+  border: 1px solid white;
+}
+.ex{
+  color: #7c3c21;
+  font-size: 50px;
+ 
+  font-weight: bold;
+}
+i{
+  margin-left: 1em;
+}
+.tercera a:hover{
+    background-color: #7c3c21;
+    transition: .3s all ease;
+}
+.redes{
+    margin-bottom: 2em;
+}
+.redes ul{
+    list-style: none;
+    display: flex;
+}
+.cuatro{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 3em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+.card .header{
+    padding: 20px;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    color: gray;
+}
+.card .img:hover{
+   
+    transition: .3s all;
+    transform: scale(1.1);
+}
+.card .img{
+  position: relative;
+}
+.act{
+    color: gray;
+}
+.card .img:hover::before{
+  content: 'Ven que esperas para visitarnos';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #17191a28;
+}
+.titles h2{
+
+    margin-top: 3em;
+    text-align: center;
+    
+}
+.card .header span{
+  font-size: 20px;
+  color: #5c1010;
+}
+.titles p{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.card .footer{
+    margin-top: 2em;
+
+}
+.card .footer a{
+    background-color: #ec823a;
+    padding: .7em 1.2em;
+    text-decoration: none;
+    color: white;
+}
+.card .footer a:hover{
+    background-color: #7c3c21;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+form input{
+    width: 100%;
+    margin: 1em 0em;
+    padding: 1em;
+    border: 1px solid gray;
+
+}
+form a{
+    display: block;
+    color: white;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    padding: .7em 1em;
+    background-color: #581c0c;
+
+}
+
+form a:hover{
+    background-color: #f9b384;
+}
+/* Estilos css Footer */
+footer{
+ 
+    text-align: center;
+    background-color: #581c0c;
+    margin-top: 2em;
+    padding: 1em;
+    color: #f1e3cb;
+
+}
+footer i{
+    font-size: 25px;
+    color: white;
+    margin-top: .5em;
+}
+.movil{
+    display: none;
+}
+.abajo{
+    display:none;
+}
+.mapa{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5em;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2em;
+    margin-left: .5em;
+}
+
+/* TIENDA */
+
+
+
+@media (max-width: 1083px){
+  .cuatro{
+   flex-wrap: wrap;
+  }
+  .secone{
+      top: 0;
+  }
+  .tercera{
+      flex-wrap: wrap;
+  }
+  .tercera .rg{
+      width: 100%;
+      margin: 0 auto;
+  }
+  .rg video{
+      width: 100%;
+  }
+  .tercera .reg{
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 1em;
+  }
+  .secone h2{
+      font-size: 25px;
+  }
+  .secone span{
+      font-size: 25px;
+  }
+  header {
+      display: none;
+  }
+  .movil{
+     display: block;
+  }
+  .cty{
+     background-color: #ca5116;
+     padding: 0.5em;
+      display: flex;
+      align-items: center;
+      position: relative;
+      justify-content: space-between;
+    
+  }
+  .cty .mens{
+      position: absolute;
+      right: 25px;
+  }
+  .cty .mens i{
+      color: white;
+      cursor: pointer;
+      font-size: 25px;
+  }
+  .movil{
+      width: 100%;
+      background-color: #581c0c;
+      position: relative;
+  }
+  .movil ul{
+      list-style: none;
+  }
+  .movil ul li{
+      padding: .5em 0 .5em;
+  }
+  .movil ul li a{
+      text-decoration: none;
+      color: #f1e3cb;
+
+  }
+  .abajo{
+      position: absolute;
+      width: 100%;
+      top: 11%;
+      list-style: none;
+    display: block;
+    background-color: #581c0c;
+    z-index: 10000;
+    height: 200px;
+ 
+  }
+  .secone {
+      margin-top: 0;
+  }
+  .abajo ul{
+      list-style: none;
+  }
+  .abajo ul li {
+
+      padding: 0.5em 0 ;
+  }
+  .abajo ul li a{
+      text-decoration: none;
+      color: #f1e3cb;
+  }
+  .abajo{
+      transform: translateX(-100%);
+  }
+  .active{
+   
+      transform: translateX(0);
+  }form a{
+      width: 50%;
+  }
+  
+}
